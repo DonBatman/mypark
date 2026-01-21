@@ -280,3 +280,16 @@ core.register_node("mypark:fence_gate",{
 		}
 	},
 })
+if core.get_modpath("lucky_block") then
+	lucky_block:add_blocks({
+		{"dro", {"mypark:swings"}, 1},
+		{"dro", {"mypark:bench"}, 1},
+		{"dro", {"mypark:birdbath"}, 1},
+		{"dro", {"mypark:sign"}, 1},
+		{"dro", {"mypark:pond"}, 1},
+		{"dro", {"mypark:pond2"}, 1},
+		{"dro", {"mypark:slide"}, 1},
+		{"dro", {"mypark:sandbox"}, 1},
+		{"dro", {"mypark:fountain"}, 1},
+	})
+end
